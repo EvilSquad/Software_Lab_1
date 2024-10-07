@@ -42,7 +42,7 @@ public class Matrix {
 
     // Метод для транспонування матриці
     public static long[][] transposeMatrix(long[][] matrix) {
-        long[][] result = new long[matrix.length][matrix[0].length];
+        long[][] result = new long[matrix[0].length][matrix.length];
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
                 result[j][i] = matrix[i][j];
